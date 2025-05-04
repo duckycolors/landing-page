@@ -159,6 +159,7 @@ img {
     display: flex;
     justify-content: space-around;
     border: 1px solid red;
+    margin: 100px;
 }
 
 .section-4-text-box {
