@@ -3,6 +3,7 @@ body {
     margin: 0;
     border: 1px solid red;
     min-height: 100vh;
+    font-family: Roboto;
     /* display: flex;
     flex-direction: column; */
 }
@@ -32,7 +33,7 @@ body {
 }
 
 button {
-    width: 80px;
+    width: 90px;
     padding: 5px;
     background-color: #3882f6;
     color: #F9FAF8;
@@ -62,7 +63,6 @@ img {
 }
 
 .header, .section-1, .footer {
-    font-family: Roboto;
     background-color: #1F2937;
 }
 
@@ -73,9 +73,14 @@ img {
     margin: 0;
 }
 
-.section-1-light-texts {
+.light-text {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
+}
+
+.section-1-button {
+    margin: 5px 0 0 0;
 }
 
 .section-2-text {
@@ -84,6 +89,26 @@ img {
     font-weight: 900;
     border: 1px solid red;
     text-align: center;
+    margin: 24px;
+}
+
+.section-2-small-text {
+    margin: 3px 0;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.section-2-box-wrapper {
+    border: 1px solid red;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 125px;
 }
 
 .section-2-boxes {
@@ -91,9 +116,49 @@ img {
     border-radius: 10px;
     width: 125px;
     height: 125px;
+    box-sizing: border-box;
 }
 
-.box-container {
+.section-2-space {
+    margin: 72px;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+}
+
+.section-3-text {
+    font-size: 36px;
+    font-weight: 10;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.section-3-small-text {
+    text-align: end;
+    font-weight: bold;
+}
+
+.box-3 {
+    margin: 50px;
+    width: 600px;
+}
+
+.box-4 {
+    background-color: #3882f6;
+    width: 850px;
+    height: 125px;
+    border-radius: 6px;
     display: flex;
-    gap: 30px;
+    border: 1px solid red;
+}
+
+.section-4-text-box {
+    border: 1px solid red;
+}
+
+.section-4-button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
