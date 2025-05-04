@@ -3,8 +3,8 @@ body {
     margin: 0;
     border: 1px solid red;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .header {
@@ -53,14 +53,12 @@ img {
 
 .content-box {
     border: 1px solid red;
-    display: flex;
 }
 
 .box-1 {
     margin: 50px;
     height: auto;
     width: 500px;
-    flex-direction: column;
 }
 
 .header, .section-1, .footer {
@@ -84,14 +82,18 @@ img {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    border: 1px solid red;
+    text-align: center;
 }
 
 .section-2-boxes {
-    border: 1px solid red;
-    width: 50px;
-    height: 50px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    width: 125px;
+    height: 125px;
 }
 
-.section-2-flex {
-
+.box-container {
+    display: flex;
+    gap: 30px;
 }
