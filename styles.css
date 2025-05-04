@@ -2,18 +2,41 @@ body {
     padding: 0;
     margin: 0;
     border: 1px solid red;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
 }
 
 .footer {
     border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    padding: 16px 0;
 }
 
 button {
-    width: 100px;
+    width: 80px;
+    padding: 5px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 5px;
 }
 
 .info {
@@ -24,7 +47,7 @@ button {
 }
 
 img {
-    width: 200px;
+    width: 300px;
     height: auto;
 }
 
@@ -33,9 +56,23 @@ img {
     display: flex;
     flex-direction: column;
     margin: 50px;
+    height: auto;
+    width: 500px;
 }
 
-.header, .section-1 {
+.header, .section-1, .footer {
     font-family: Roboto;
     background-color: #1F2937;
+}
+
+.section-1-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.section-1-light-texts {
+    font-size: 18px;
+    color: #E5E7EB;
 }
