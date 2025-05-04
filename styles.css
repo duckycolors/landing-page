@@ -1,7 +1,6 @@
 body {
     padding: 0;
     margin: 0;
-    border: 1px solid red;
     min-height: 100vh;
     font-family: Roboto;
     /* display: flex;
@@ -9,28 +8,25 @@ body {
 }
 
 .header {
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 10px 0 0 0;
 }
 
 .header-text {
     font-size: 24px;
     color: #F9FAF8;
-    border: 1px solid red;
     width: 500px;
 }
 
 .header-links {
     display: flex;
     gap: 20px;
-    border: 1px solid red;
     width: 300px;
 }
 
 .footer {
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     padding: 16px 0;
@@ -46,7 +42,6 @@ button {
 }
 
 .info {
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,10 +50,6 @@ button {
 img {
     width: 300px;
     height: auto;
-}
-
-.content-box {
-    border: 1px solid red;
 }
 
 .box-1 {
@@ -103,13 +94,12 @@ img {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    border: 1px solid red;
     text-align: center;
     margin: 24px;
 }
 
 .section-2-small-text {
-    margin: 3px 0;
+    margin: 5px 0;
 }
 
 .box-container {
@@ -119,19 +109,18 @@ img {
 }
 
 .section-2-box-wrapper {
-    border: 1px solid red;
     text-align: center;
     font-size: 16px;
     display: flex;
     flex-direction: column;
-    width: 125px;
+    width: 175px;
 }
 
 .section-2-boxes {
     border: 2px solid #3882f6;
     border-radius: 10px;
-    width: 125px;
-    height: 125px;
+    width: 175px;
+    height: 175px;
     box-sizing: border-box;
 }
 
@@ -167,12 +156,10 @@ img {
     border-radius: 6px;
     display: flex;
     justify-content: space-around;
-    border: 1px solid red;
     margin: 100px;
 }
 
 .section-4-text-box {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -186,7 +173,6 @@ img {
 .section-4-button-div {
     display: flex;
     align-items: center;
-    border: 1px solid red;
 }
 
 .btn4 {
