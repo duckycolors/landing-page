@@ -54,10 +54,13 @@ img {
 .content-box {
     border: 1px solid red;
     display: flex;
-    flex-direction: column;
+}
+
+.box-1 {
     margin: 50px;
     height: auto;
     width: 500px;
+    flex-direction: column;
 }
 
 .header, .section-1, .footer {
@@ -75,4 +78,20 @@ img {
 .section-1-light-texts {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.section-2-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.section-2-boxes {
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+}
+
+.section-2-flex {
+
 }
