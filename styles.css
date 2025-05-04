@@ -18,11 +18,13 @@ body {
 .header-text {
     font-size: 24px;
     color: #F9FAF8;
+    border: 1px solid red;
 }
 
 .header-links {
     display: flex;
     gap: 20px;
+    border: 1px solid red;
 }
 
 .footer {
@@ -38,6 +40,7 @@ button {
     background-color: #3882f6;
     color: #F9FAF8;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .info {
@@ -60,6 +63,10 @@ img {
     margin: 50px;
     height: auto;
     width: 500px;
+}
+
+.section-1 {
+    border: 1px solid red;
 }
 
 .header, .section-1, .footer {
@@ -150,6 +157,7 @@ img {
     height: 125px;
     border-radius: 6px;
     display: flex;
+    justify-content: space-around;
     border: 1px solid red;
 }
 
@@ -162,11 +170,15 @@ img {
 
 .header-text-section-4 {
     margin: 0;
+    font-weight: bold;
 }
 
 .section-4-button-div {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    display: flex;
+    align-items: center;
     border: 1px solid red;
+}
+
+.btn4 {
+    border: 1px solid #F9FAF8;
 }
